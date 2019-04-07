@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#455A64">
+
+    <com.example.leidong.battery.view.Battery
+        android:layout_marginTop="10dp"
+        android:id="@+id/battery"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:onClick="onClickBattery"
+        android:layout_gravity="center_horizontal"
+        app:lowPowerColor="#d32f2f"
+        app:middlePowerColor="#ff9100"
+        app:enoughPowerColor="#00c853"
+        app:strokeColor="#ffffff"
+        app:strokeWidth="5dp"
+        app:textSize="20sp"
+        app:textColor="#ffffff" />
+
+</LinearLayout>
